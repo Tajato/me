@@ -167,10 +167,7 @@ h1, h2{
 
     padding:30px;
  }
- .img-container h1 {
-    border-bottom: 1px solid black;
-    
- }
+ 
  .img-container img {
     width:100%;
     height:auto;
