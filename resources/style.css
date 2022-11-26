@@ -186,12 +186,7 @@ h1, h2{
     background-color:hsl(45, 29%, 98.2%);
 
  }
- .case-study {
-    padding:90px;
-    /* text-align:center; */
-   
-
- }
+ 
  .button{
     border: 1px solid black;
     
@@ -271,11 +266,7 @@ h1, h2{
  .img-size {
     margin:auto;
  }
- .custom {
-    margin-left:20px;
-    margin-right:20px;
-    padding:90px;
- } 
+ 
 
  #stack {
     display:flex;
@@ -345,6 +336,9 @@ h1, h2{
     .navbar-links.active {
         display:flex;
     }
+    .resume{
+        width:50%;
+    }
 
    
 }
@@ -387,10 +381,26 @@ h1, h2{
     .img-size {
         width:600px;
      }
+     .case-study {
+        padding:90px;
+       
+       
+    
+     }
+     .custom {
+        
+        padding:90px;
+     } 
 }
 
 @media only screen and (min-width:768px) {
     .toggle-button {
         display:none;
     }
+   /* .case-study {
+    width:700px;
+   }
+   .custom {
+    width:700px;
+   } */
 }
