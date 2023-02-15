@@ -16732,22 +16732,6 @@
     <div class="jp-Cell-inputWrapper">
     <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
     </div>
-    <div class="jp-InputArea jp-Cell-inputArea">
-    <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
-    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-         <div class="CodeMirror cm-s-jupyter">
-    <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#underweight = insurance.groupby(insurance.bmi[insurance.bmi &lt; 18.5])</span>
-    <span class="n">h_weight</span> <span class="o">=</span> <span class="n">insurance</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">insurance</span><span class="o">.</span><span class="n">bmi</span><span class="p">[(</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mf">18.5</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">25.00</span><span class="p">)])</span><span class="o">.</span><span class="n">charges</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
-    <span class="n">overweight</span> <span class="o">=</span> <span class="n">insurance</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">insurance</span><span class="o">.</span><span class="n">bmi</span><span class="p">[(</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">25</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">30.00</span><span class="p">)])</span><span class="o">.</span><span class="n">charges</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
-    <span class="n">obese</span> <span class="o">=</span> <span class="n">insurance</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">insurance</span><span class="o">.</span><span class="n">bmi</span><span class="p">[</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mf">30.00</span><span class="p">])</span><span class="o">.</span><span class="n">charges</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
-    <span class="n">underweight</span> <span class="o">=</span> <span class="n">insurance</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mf">18.5</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">insurance</span><span class="p">[</span><span class="s1">&#39;bmi&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">25.00</span><span class="p">)]</span>
-    <span class="n">unerweight1</span> <span class="o">=</span> <span class="n">underweight</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
-    
-    <span class="c1"># underweight = underweight.drop([&#39;age&#39;,&#39;sex&#39;,&#39;children&#39;,&#39;smoker&#39;,&#39;region&#39;], axis=1)</span>
-    <span class="c1"># underweight.charges.median()</span>
-    <span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">underweight1</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">insurance</span><span class="o">.</span><span class="n">charges</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">insurance</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-    </pre></div>
     
          </div>
     </div>
